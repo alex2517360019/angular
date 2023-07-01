@@ -1,0 +1,10 @@
+.circle {
+  width: calc(20% - 50px);
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(155, 155, 155, .4);
+  margin-bottom: 1vh;
+}

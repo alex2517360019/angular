@@ -1,0 +1,15 @@
+h1{
+  font-size: 2vw;
+}
+.box-border{
+  border: 3px solid black;
+  -webkit-border: 3px solid black;
+  -moz-border: 3px solid black;
+  -ms-border: 3px solid black;
+  -o-border: 3px solid black;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}

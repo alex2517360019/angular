@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-
+// se invida id de elemento a reederizar el main con el componente que se desea html + css = componente
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '02-bases';
+  public title:string = 'primera app';
 }

@@ -1,0 +1,24 @@
+<div class="box-border col-6 mb-2">
+  <h1 class="text-center">{{name}}</h1>
+  <hr>
+  <dl class="py-4 mx-2">
+    <dt class="fs-4 fw-semibold">Nombre:</dt>
+    <dd>{{name}}</dd>
+
+    <dt class="fs-4 fw-semibold">Edad:</dt>
+    <dd>{{age}}</dd>
+
+    <dt class="fs-4 fw-semibold">Método:</dt>
+    <dd>{{getDescription()}}</dd>
+
+    <dt class="fs-4 fw-semibold">Capitalizado:</dt>
+    <dd>{{capitalizedName}}</dd>
+  </dl>
+</div>
+<div class="col-6 d-flex justify-content-evenly align-items-center">
+
+  <button type="button" class="btn btn-primary" *ngIf="age !== 75" (click)="changeAge()">Cambiar edad</button>
+  <button type="button" class="btn btn-primary" *ngIf="name !== 'Magneto'" (click)="changeName()">Cambiar nombre</button>
+
+  <button type="button" class="btn btn-primary"  (click)="resetForm()">Reset</button>
+</div>
